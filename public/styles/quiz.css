@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans:ital@1&family=Roboto&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #4a5435;
+    font-size: 1.2em;
+    background-color: #eeecec;
+}
+
+header{
+    width: 700px;
+    margin-left: 106px;
+}
+
+h1 {
+    margin: 2rem;
+    font-size: 1.8rem;
+    color: rgb(23, 41, 23);
+    text-align: center ;
+    text-transform: capitalize;
+}
+
+/** Styling the form **/
+
+form{
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eeecec;
+    display: grid;
+
+}
+
+label, input, textarea, select, button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
